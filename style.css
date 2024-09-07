@@ -13,8 +13,8 @@
 
 :root {
     --dark-green: #112a34;
-    --green-color: #004047;
-    --white-color: #90421c;
+    --green-color: #b4a192;
+    --white-color: #673721;
 }
 
 ::selection {
@@ -39,7 +39,7 @@ section {
 
 .label {
     font-size: 1.1rem;
-    color:  #666;
+    color:  #696969;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -140,7 +140,7 @@ section.home {
 }
 
 .home .home-box nav .signup-login a:hover {
-    color: rgb(255 255 255/70%);
+    color: rgba(135, 118, 118, 0.7);
 }
 
 .home .home-box nav .signup-login a:last-child:hover {
@@ -189,7 +189,7 @@ section.home {
     width: 100%;
     max-width: 38rem;
     height: 45px;
-    background: var(--white-color);
+    background: var(--dark-green);
     border-radius: 3rem;
     display: flex;
     align-items: center;
@@ -217,7 +217,7 @@ section.home {
     background: var(--green-color);
     border: none;
     outline: none;
-    color: var(--white-color);
+    color: var(--dark-green);
     font-weight: 400;
     cursor: pointer;
 }
@@ -240,7 +240,7 @@ section.home {
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
-    padding:  5rem 0;
+    padding:5rem 0;
 }
 
 .travel .container .box {
@@ -253,6 +253,7 @@ section.home {
 
 .travel .container .box img {
     height: 10rem;
+
 }
 
 .travel .container .box h4 {
@@ -302,7 +303,7 @@ section.home {
 }
 
 .destinations .container .container-box .content a {
-    color: var(--green-color);
+    color: var(--white-color);
     font-weight: 600;
 }
 
@@ -347,7 +348,7 @@ section.home {
 
 .gallery .box .text h2 {
     font-size: 1.4rem;
-    color: var(--white-color);
+    color: var(--dar);
     font-weight: 500;
 }
 
@@ -389,7 +390,7 @@ section.home {
     position: absolute;
     bottom: 2rem;
     padding: .4rem 1rem;
-    color: var(--white-color);
+    color: var(--dark-green);
     background: var(--green-color);
     border-radius: 3rem;
     font-size: .9rem;
@@ -475,7 +476,7 @@ section.home {
 
 .feedback .container h2 {
     max-width: 40rem;
-    color: var(--white-color);
+    color: var(--dark-green);
     text-align: center;
 }
 
@@ -889,4 +890,3 @@ footer .footer .copyright a {
         font-size: 1.1rem;
     }
 }
-/* media section starts here  */
